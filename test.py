@@ -6,6 +6,6 @@ assert file.exists(), "test.txt does not exist!"
 
 content = file.read_text()
 
-assert content == "Hello GitHub Actions!", "Incorrect file content!"
+assert content == "Hello GitHub! it worked again!", "Incorrect file content!"
 
 print("All tests passed!")
